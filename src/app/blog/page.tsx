@@ -8,9 +8,9 @@ import { Blogs } from "@/components/Blogs";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blogs | John Doe",
+  title: "Blogs | Sumeet Mourya",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Sumeet Mourya is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
 };
 
 export default async function Blog() {
