@@ -1,7 +1,8 @@
 import {
   IconBrandLinkedin,
   IconBrandTwitter,
-  IconBrandGithub
+  IconBrandGithub,
+  IconMail
 } from "@tabler/icons-react";
 
 export const socials = [
@@ -20,4 +21,9 @@ export const socials = [
     label: "GitHub",
     icon: IconBrandGithub,
   },
+  {
+    href: "mailto:mouryasumeet5@gmail.com",
+    label: "Mail",
+    icon: IconMail
+  }
 ];

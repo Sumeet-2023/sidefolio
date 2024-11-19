@@ -1,53 +1,9 @@
-import Image from "next/image";
 import React from "react";
 import { Heading } from "./Heading";
-import { twMerge } from "tailwind-merge";
 
 export const TechStack = () => {
-  const stack = [
-    {
-      title: "Next.js",
-      src: "/images/logos/next.png",
+  const stack = ["NextJs", "ReactJs", "ExpressJS", "PostgreSQL", "Redis", "MongoDB", "Typescript", "Golang", "Docker", "AWS", "Github", "TRPC"];
 
-      className: "h-10 w-14",
-    },
-    {
-      title: "AWS",
-      src: "/images/logos/aws.webp",
-
-      className: "h-10 w-10",
-    },
-    {
-      title: "Figma",
-      src: "/images/logos/figma.png",
-
-      className: "h-10 w-8",
-    },
-    {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
-
-      className: "h-10 w-10",
-    },
-    {
-      title: "Node",
-      src: "/images/logos/node.png",
-
-      className: "h-10 w-12",
-    },
-    {
-      title: "Tailwind",
-      src: "/images/logos/tailwind.png",
-
-      className: "h-10 w-24",
-    },
-    {
-      title: "Vercel",
-      src: "/images/logos/vercel.png",
-
-      className: "h-10 w-24",
-    },
-  ];
   return (
     <div>
       <Heading
@@ -56,18 +12,14 @@ export const TechStack = () => {
       >
         Tech Stack
       </Heading>
-      <div className="flex flex-wrap">
-        {stack.map((item) => (
-          <Image
-            src={item.src}
-            key={item.src}
-            width={`200`}
-            height={`200`}
-            alt={item.title}
-            className={twMerge("object-contain mr-4 mb-4", item.className)}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
+      <div className="grid grid-cols-4 gap-3">
+        {stack.map((item,index) => (
+          
+          <p key={index} className="bg-gray-950 hover:text-white hover:opacity-75 rounded-full py-3 px-4 text-primary text-md text-center">
+            {item}
+          </p>
+              ))}
+              </div>
+            </div>
+          );
+}

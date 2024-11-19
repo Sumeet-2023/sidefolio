@@ -10,7 +10,7 @@ import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterk
 export const products = [
   {
     href: "https://aceternity.com",
-    title: "Aceternity",
+    title: "Paytm",
     description:
       "A design and development studio that focuses on building quality apps.",
     thumbnail: sidefolioAceternity,
@@ -40,7 +40,7 @@ export const products = [
   },
   {
     href: "https://algochurn.com",
-    title: "Algochurn",
+    title: "Gericht Restaurant",
     description:
       "Practice for technical interviews with hands on coding challenges.",
     thumbnail: sidefolioAlgochurn,
@@ -70,7 +70,7 @@ export const products = [
   },
   {
     href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    title: "MazeRunner",
     description:
       "Never write from scratch again with Moonbeam, your AI first writing tool",
     thumbnail: sidefolioMoonbeam,
@@ -100,7 +100,7 @@ export const products = [
   },
   {
     href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    title: "Project Management",
     description:
       "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
     thumbnail: sidefolioTailwindMasterKit,
